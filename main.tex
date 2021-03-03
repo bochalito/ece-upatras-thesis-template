@@ -1,0 +1,235 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Masters/Doctoral Thesis - University of Patras
+%
+%
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+\documentclass[11pt]{Thesis}
+ 	
+%
+\usepackage{pgfplots}
+\usepackage{subfig}
+%\usepackage{euler} % math & rm
+
+\usepackage[bottom]{footmisc}
+\usepackage{fnpct} %footnote picture
+
+\graphicspath{{Figures/}} 
+\usepackage{bm}			
+\usepackage{titlesec}
+\usepackage{xltxtra}                    
+\setmainfont{Georgia}              
+\usepackage{xgreek} 
+\usepackage{float}
+\usepackage[square, numbers, comma, sort&compress]{natbib} 
+\hypersetup{urlcolor=black, colorlinks=true, citecolor=black} 
+
+\usepackage{textcase}
+
+\makeatletter %Customize chapter style and image/table captions
+	%Make image and table captions bold
+	\def\fnum@figure{\textbf\figurename\nobreakspace\textbf{\thefigure}}
+	\def\fnum@table{\textbf\tablename\nobreakspace\textbf{\thetable}}
+	\def\chaptername{Κεφάλαιο}
+	\def\bibname{Αναφορές}%
+	\def\figurename{Εικόνα}%
+	\def\tablename{Πίνακας}%
+	
+	
+	\def\@makechapterhead#1{%
+  		%%%%\vspace*{50\p@}% %%% removed!
+  		{\parindent \z@ \raggedright \normalfont
+    		\ifnum \c@secnumdepth >\m@ne
+        	\huge \@chapapp\space \thechapter
+        	\par\nobreak
+       		\vskip -10\p@
+    		\fi
+    		\interlinepenalty\@M
+    		\Huge \bfseries #1\par\nobreak
+    		\vskip 40\p@
+  	}}
+  
+	\def\@makeschapterhead#1{%
+  		%%%%%\vspace*{50\p@}% %%% removed!
+  		{\parindent \z@ \raggedright
+    		\normalfont
+    		\interlinepenalty\@M
+    		\Huge \bfseries  #1\par\nobreak
+    		\vskip 40\p@
+  	}}
+\makeatother
+
+%Customize chapter/sections style
+%\titleformat*{\section}{\Large\bfseries}
+%\titleformat*{\subsection}{\large\bfseries}
+\titleformat*{\paragraph}{\large\bfseries}
+\titleformat*{\subparagraph}{\large\bfseries}
+\titlespacing{\section}{0pt}{*4}{*-0.5}
+\titlespacing{\subsection}{0pt}{*4}{*-0.5}
+
+\renewcommand{\lstlistingname}{Αλγόριθμος}% Listing -> Algorithm
+
+%CODE SNIPPETS STYLES ----------------------------------------------START
+\usepackage{xcolor}
+\definecolor{pblue}{rgb}{0.13,0.13,1}
+\definecolor{pgreen}{rgb}{0,0.5,0}
+\definecolor{pred}{rgb}{0.9,0,0}
+\definecolor{pgrey}{rgb}{0.46,0.45,0.48}
+
+\usepackage{listings}
+
+\lstset{language=Java,
+  showspaces=false,
+  showtabs=false,
+  breaklines=true,
+  showstringspaces=false,
+  breakatwhitespace=true,
+  commentstyle=\color{pgreen},
+  keywordstyle=\color{pblue},
+  stringstyle=\color{pred},
+  basicstyle=\ttfamily,
+  moredelim=[il][\textcolor{pgrey}]{\$\$},
+  moredelim=[is][\textcolor{pgrey}]{\%\%}{\%\%}
+}
+
+
+%CODE SNIPPETS STYLES ----------------------------------------------END
+\usepackage{amsthm}
+\newtheoremstyle{mydef}
+{\topsep}{\topsep}%
+{}{}%
+{\bfseries}{}
+{\newline}
+{%
+ 
+  \thmname{#1}~\thmnumber{#2}\thmnote{\ -\ #3}\\*[-1.5ex]%
+  \rule{\textwidth}{0.4pt}}%
+\theoremstyle{mydef}
+\newtheorem{definition}{Ορισμός}	
+
+\usepackage{textcomp}
+\usepackage{colortbl}
+\usepackage{tabulary}
+\usepackage{etoolbox}
+ 
+\begin{document}
+ 
+\renewcommand{\sectionmark}[1]{\markright{\MakeUppercase{\thesection.\ #1}}}
+\renewcommand{\chaptermark}[1]{
+	\markboth{\MakeUppercase{#1}}{}}
+
+\frontmatter % Use roman page numbering style (i, ii, iii, iv...) for the pre-content pages
+
+\setstretch{1.3} % Line spacing of 1.3
+
+% Define the page headers using the FancyHdr package and set up for one-sided printing
+\fancyhead{} 		% Clears all page headers and footers
+\rhead{\thepage} 	% Sets the right side header to show the page number
+\lhead{} 			% Clears the left side page header	
+
+\pagestyle{fancy} 	% Finally, use the "fancy" page style to implement the FancyHdr headers
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % New command to make the lines in the title page
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+\input{titlepage2}
+
+%----------------------------------------------------------------------------------------
+%	DECLARATION PAGE
+%	Your institution may give you a different text to place here
+%----------------------------------------------------------------------------------------
+\input{verifyPage}
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT PAGE, THANKS PAGE
+%----------------------------------------------------------------------------------------
+\input{abstractPage}
+\clearpage % Start a new page
+
+%----------------------------------------------------------------------------------------
+%	LIST OF CONTENTS/FIGURES/TABLES PAGES
+%----------------------------------------------------------------------------------------
+\pagestyle{fancy} 
+
+\renewcommand*\contentsname{Περιεχόμενα}
+\lhead{ΠΕΡΙΕΧΟΜΕΝΑ}
+\tableofcontents 			
+
+\lhead{\emph{Ευρετήριο Εικόνων}} 
+\listoffigures 
+
+\lhead{\emph{Ευρετήριο Πινάκων}} 
+\listoftables 
+
+\renewcommand\lstlistlistingname{Ευρετήριο Αλγορίθμων}
+\lhead{\emph{Ευρετήριο Αλγορίθμων}} 
+\lstlistoflistings
+
+%----------------------------------------------------------------------------------------
+%	DEDICATION
+%----------------------------------------------------------------------------------------
+\setstretch{1.3} 					% Return the line spacing back to 1.3
+\pagestyle{empty} 					% Page style needs to be empty for this page
+%\dedicatory{Στους γονείς μου\ldots} % Dedication text
+\addtocontents{toc}{\vspace{2em}} 	% Add a gap in the Contents, for aesthetics
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - CHAPTERS
+%----------------------------------------------------------------------------------------
+\mainmatter 		% Begin numeric (1,2,3...) page numbering
+\pagestyle{fancy} 	% Return the page headers back to the "fancy" style
+\fancyhead{}
+\fancyhead[RO,LE]{\small\thepage}
+\fancyhead[RE]{  \leftmark }
+\fancyhead[LO]{  \rightmark}
+\input{Chapters/Chapter1}
+\input{Chapters/Chapter2}
+\input{Chapters/Chapter3}
+\input{Chapters/Chapter4}
+\input{Chapters/Chapter5}
+\input{Chapters/Chapter6}
+\input{Chapters/Chapter7}
+\input{Chapters/Chapter8}
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+\label{Bibliography}
+\bibliography{Bibliography}
+\bibliographystyle{unsrtnat}
+\addtocontents{toc}{\vspace{2em}}	
+\addtotoc{Αναφορές}
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - APPENDICES
+%----------------------------------------------------------------------------------------
+\addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
+
+\appendix % Cue to tell LaTeX that the following 'chapters' are Appendices
+
+
+\input{Appendices/AppendixA}
+%\input{Appendices/AppendixB}
+%\input{Appendices/AppendixC}
+
+\addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
+
+\backmatter
+
+\pagestyle{empty}
+\pagestyle{fancy}
+\fancyhead[RO,LE]{\small\thepage}
+\fancyhead[RE]{  \leftmark }
+\fancyhead[LO]{  \rightmark}
+
+
+%\lhead{\emph{Βιβλιογραφία}} % Change the page header to say "Bibliography"
+
+
+
+\end{document}  

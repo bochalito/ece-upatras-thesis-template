@@ -1,0 +1,202 @@
+\begin{thebibliography}{40}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Coetzee(2011)]{Coetzee}
+L. Coetzee and J. Eksteen.
+\emph{"The Internet of Things - promise for the future? An introduction"}.
+in IST-Africa Conference, 2011.
+
+\bibitem[Facebook(2018)]{Facebook}
+\emph{"Number of Facebook users worldwide 2008-2018"}.
+Statista, 2018. [Online] Available: https://www.statista.com/statistics/264810/number-of-monthly-active-facebook-users-worldwide. 
+
+\bibitem[Marr(2016)]{Marr}
+B. Marr. 
+\emph{"Why Everyone Must Get Ready For The 4th Industrial Revolution"}. Forbes.com, 2016. [Online] Available: https://www.forbes.com/sites/bernardmarr/2016/04/05/why-everyone-must-get-ready-for-4th-industrial-revolution/\#5075c5333f90.
+
+\bibitem[Pontin(2005)]{Pontin}
+J. Pontin.
+\emph{"Bill Joy’s Six Webs".}
+MIT Technology Review, 2005.
+
+\bibitem[Farooq(2015)]{Farooq}
+M. Farooq, M. Waseem, S. Mazhar, A. Khairi and T. Kamal.
+\emph{"A Review on Internet of Things (IoT)"}.
+International Journal of Computer Applications, vol. 113, no. 1, 2015.
+
+\bibitem[Mattern(2010)]{Mattern}
+F. Mattern and C. Floerkemeier.
+\emph{"From the Internet of Computers to the Internet of Things"}. In: Sachs K., Petrov I., Guerrero P. (eds) From Active Data Management to Event-Based Systems and More. Lecture Notes in Computer Science, vol 6462. Springer, Berlin, Heidelberg
+
+
+\bibitem[Zeinab(2017)]{Zeinab}
+K. Zeinab and S. Elmustafa. \emph{"Internet of Things Applications, Challenges and Related Future Technologies"}. World Scientific News, vol. 67, no. 2, 2017.
+
+\bibitem[Misra(2016)]{Misra}
+S. Misra et al. \emph{"Security Challenges and Approaches in Internet of Things"}. Springer Briefs in Electrical and Computer Engineering, 2016.
+
+\bibitem[Niranjan(2017)]{Niranjan}
+M. Niranjan, N. Madhukar, A. Ashwini, J. Muddsar and M. Saish. \emph{"IOT Based Industrial Automation"}. IOSR Journal of Computer Engineering (IOSR-JCE), pp. 36-40, 2017.
+
+\bibitem[World Economic Forum(2015)]{WEF}
+World Economic Forum. \emph{"Unleashing the Potential of Connected Products and Services"}. World Economic Forum, 2015.
+
+\bibitem[Elfrink(2014)]{Elfrink}
+W. Elfrink. \emph{“The Internet of Things: Capturing the Accelerated Opportunity”}. Cisco Blog, October 15, 2014. Available: http://blogs.cisco.com/ioe/the-internet-of-things-capturing-the-accelerated-opportunity
+
+\bibitem[Rojko(2017)]{Rojko}
+A. Rojko. \emph{"Industry 4.0 Concept: Background and Overview"}. International Journal of Interactive Mobile Technologies (iJIM), vol. 11, no. 5, p. 77, 2017.
+
+\bibitem[Conway(2015)]{Conway}
+J. Conway. \emph{“The Industrial Internet of things: an evolution to a smart manufacturing enterprise”}. Available: http://www.mcrockcapital.com/uploads/1/0/9/6/10961847/schneider-an\_evolution\_to\_a\_smart\_manufacturing\_enterprise.pdf
+
+\bibitem[Gazis(2002)]{Gazis}
+V. Gazis, M. Goertz, M. Huber, and A. Leonardi. \emph{“Short Paper: IoT: Challenges, Projects, Architectures”}.
+
+\bibitem[IIConsortium(2017)]{IIConsortium}
+Industrial Internet Consortium - Smart Factory Task Group, \emph{"Smart Factory Applications in Discrete Manufacturing"}, 2017.
+
+\bibitem[Accenture(2015)]{Accenture}
+Accenture, \emph{"Driving Unconventional Growth through the Industrial Internet of Things"}, 2015.
+
+\bibitem[Laine(2012)]{Laine}
+M. Laine. \emph{"RESTful Web Services for the Internet of Things"}, 2012.
+
+\bibitem[Guinard(2009)]{Guinard}
+D. Guinard and V. Trifa. \emph{"Towards the Web of Things: Web Mashups for Embedded Devices"}, International World Wide Web Conference, Madrid, Spain, 2009. 
+
+\bibitem[Azzara(2014)]{Azzara}
+A. Azzarà, D. Alessandrelli, M. Petracca and P. Pagano. \emph{"PyoT, a macroprogramming framework for the IoT"}, 13th international symposium on Information processing in sensor networks, Berlin, Germany, 2014.
+
+\bibitem[Guinard(2011)]{Guinard2}
+D. Guinard, V. Trifa, F. Mattern and E. Wilde. \emph{"From the Internet of Things to the Web of Things: Resource-oriented Architecture and Best Practices"}, Architecting the Internet of Things, Springer Berlin Heidelberg, 2011, pp. 97-129.
+
+\bibitem[Colitti(2011)]{Colitti}
+W. Colitti, K. Steenhaut, N. D. Caro, B. Buta and V. Dobrota. \emph{"Evaluation of constrained application protocol for wireless sensor networks"}, Local \& Metropolitan Area Networks, 2011.
+
+\bibitem[Sasaki(2016)]{Sasaki}
+T. Yokotani and Y. Sasaki. \emph{"Comparison with HTTP and MQTT on Required Network Resources for IoT"}, The 2016 International Conference on Control, Electronics, Renewable Energy and Communications (ICCEREC), 2016.
+
+\bibitem[Castellani(2011)]{Castellani}
+A. Castellani, M. Gheda, N. Bui, M. Rossi and M. Zorzi. \emph{"Web Services for the Internet of Things through CoAP and EXI"}, IEEE International Conference on Communications Workshops (ICC), 5-9 June 2011, pp. 1-6.
+
+\bibitem[Keoh(2014)]{Keoh}
+S. L. Keoh, S. S. Kumar, H. Tschofenig. \emph{"Securing the Internet of Things: A Standardization Perspective"}, Internet of Things Journal IEEE, vol. 1, no. 3, June 2014, pp. 265-275.
+
+\bibitem[Karagiannis(2015)]{Karagiannis}
+V. Karagiannis, P. Chatzimisios, F. Vazquez-Gallego and J. Alonso-Zarate. \emph{"A Survey on Application Layer Protocols for the
+Internet of Things"}, Transaction on IoT and Cloud Computing, 2015.
+
+\bibitem[mqtt(2005)]{mqtt}
+http://mqtt.org/2011/08/mqtt-used-by-facebook-messenger, cited 28 Jul 2014.
+
+\bibitem[Thangavel(2014)]{Thangavel}
+D. Thangavel, X. Ma, A. Valera, H. Tan, C. Keng-Yan Tan. \emph{"Performance Evaluation of MQTT and CoAP via a Common Middleware"}, IEEE Ninth International Conference on Intelligent Sensors, Sensor Networks and Information Processing (ISSNIP), 21-24 April 2014, pp. 1-6.
+
+\bibitem[OMA(2014)]{OMA1}
+Open Mobile Alliance (OMA). \emph{"Lightweight M2M: Enabling Device Management and Applications forthe Internet of Things"}, 2014.
+
+\bibitem[Coap(2018)]{Coap}
+\emph{"What is CoAP IoT protocol. CoAP Architecture"}, Rfwireless-world.com, 2018. [Online]. Available: http://www.rfwireless-world.com/IoT/CoAP-protocol.html.
+
+\bibitem[Gupta(2018)]{Gupta}
+R. Gupta. \emph{"5 Things to Know About MQTT - The Protocol for Internet of Things"}, Ibm.com, 2018. [Online]. Available: https://goo.gl/LaE7se
+
+\bibitem[Fielding(2000)]{Fielding}
+R. Fielding. \emph{"Architectural Styles and the Design of Network-based Software Architectures"}, PhD thesis, University of California, Irvine, USA, 2000.
+
+\bibitem[OMA(2017)]{OMA2}
+Open Mobile Alliance (OMA). \emph{"Lightweight Machine to Machine Technical Specification"}, Candidate Version 1.0, 8 Feb 2017. 
+
+\bibitem[Lai(2000)]{Lai}
+T. Wijayasiriwardhane, R. Lai, K.c. Kang. \emph{"Effort estimation of component-based software development - a survey"}, IET Software, vol. 5, no. 2, pp. 216.  
+
+\bibitem[Xie(2016)]{Xie}
+J. Xie. \emph{"The Advantages and Challenges of Component-based Software Development Compare to Traditional Software Development"}, 2016. 
+
+\bibitem[Ravichandran(2013)]{Ravichandran}
+KS. Ravichandran, Kr. Sekar, P. Suresh.\emph{"A novel approach for optimal grouping of reusable software components for component based software development systems"}, International Journal Of Software Engineering And Knowledge Engineering, vol. 23, no. 7, pp.895-912, 2013.
+
+\bibitem[Szyperski(2002)]{Szyperski}
+C. Szyperski. \emph{"Component Software: Beyond Object Oriented Programming"}, 2nd ed. Addison-Wesley Professional, Boston, 2002.
+
+\bibitem[Panunzio(2010)]{Panunzio}
+M. Panunzio and T. Vardanega.  \emph{"A Component Model for On-board Software Applications"}, Proc. of the 36th Euromicro Conf. on Software Engineering and Advanced Applications (SEAA), 2010.
+
+\bibitem[Brown(1998)]{Brown}
+A.W. Brown and K.C. Wallnau. \emph{"The Current State of CBSE"}, IEEE Software, September 1998.
+
+\bibitem[Allen(2000)]{Allen}
+P. Allen. \emph{"Realizing e-business with Components"}, Addison-Wesley, August 2000.
+
+\bibitem[Brown(2000)]{Brown2}
+A. Brown. \emph{"Large-scale, component-based development"}, 1st ed. Upper Saddle River, NJ: Prentice Hall PTR, 2000, pp.70-72.
+
+\bibitem[Garlan(1995)]{Garlan}
+D. Garlan, R. Allen, and J. Ockerbloom. \emph{"Architectural Mismatch: Why it's Hard to Build Systems Out of Existing Parts"}, Proc. of the International Conference on Software Engineering, April 1995.
+
+\bibitem[Parnas(1972)]{Parnas1}
+D. Parnas. \emph{"On the Criteria for Decomposing Systems into Modules"}, CACM vol. 15, no. 12, pp. 1053–1058, December 1972.
+
+\bibitem[Parnas(1976)]{Parnas2}
+D. Parnas. \emph{"On the Design and Development of Program Families"}, IEEE Transactions on Software Engineering, vol. 2, no. 1, March 1976.
+
+\bibitem[Diaz(1987)]{Diaz}
+R. Prieto-Diaz and P. Freeman. \emph{"Classifying Software for Reusability"}, IEEE Software, 1987.
+
+\bibitem[Cox(1986)]{Cox}
+B. Cox. \emph{"Object Oriented Programming - An Evolutionary Approach"}, Addison-Wesley, 1986.
+
+\bibitem[Brown(1996)]{Brown3}
+A.W. Brown and K.C. Wallnau. \emph{"Engineering of Component-Based Systems"}, Proceedings of the 2nd IEEE International Conference on Complex Computer Systems, Montreal, Canada, October 1996.
+
+\bibitem[Alves(2012)]{Alves}
+A. Alves. \emph{"OSGi in depth"}, Shelter Island, NY: Manning Publications Co., 2012.
+
+\bibitem[OSGi(2018)]{OSGi}
+Osgi.org. \emph{"OSGi Alliance - The Dynamic Module System for Java"}, 2018.  Available at: https://www.osgi.org/.
+
+\bibitem[Parnas(1972)]{Parnas3}
+D. Parnas. \emph{"On the criteria to be used in decomposing systems into modules"}, Communications of the ACM, 15(12):1053–1058, 1972.
+
+\bibitem[Tavares(2008)]{Tavares}
+A. Tavares and M. Valente. \emph{"A gentle introduction to OSGi"}, ACM SIGSOFT Software Engineering Notes, vol. 33, no. 5, 2008, p.1.
+
+\bibitem[OSGi(2014)]{OSGi2}
+The OSGi Alliance. \emph{"OSGi Core"}, Release 6, June 2014.
+
+\bibitem[Felix(2018)]{Felix}
+Apache Felix. \emph{"OSGi Framework and Service Platform"}. Available at: http://felix.apache.org/
+
+\bibitem[Stusek(2015)]{Stusek}
+M. Stusek, J. Hosek, D. Kovac, P. Masek, P. Cika and F. Kropfl. \emph{"Performance Analysis of the OSGi-based IoT Frameworks on Restricted Devices as Enablers for Connected-Home"}, In 2015 7th International Congress on Ultra Modern Telecommunications and Control Systems and Workshops (ICUMT). Brno, Czech Republic: 2015. pp. 211-216.
+
+\bibitem[Knoplerfish(2018)]{knoplerfish}
+Knopflerfish. \emph{"Open Source OSGi SDK"}. Available at: http://www.knopflerfish.org/
+
+\bibitem[Equinox(2018)]{Equinox}
+Eclipse Equinox. \emph{"OSGi core framework"}. Available at: http://www.eclipse.org/equinox/
+
+\bibitem[Basile(2013)]{Basile}
+F. Basile, P. Chiacchio and D. Gerbasio. \emph{"On the implementation of industrial automation systems based on PLC"}, IEEE Transactions on Automation Science and Engineering, vol. 10, no. 4, pp. 990-1003, 2013.
+
+\bibitem[Thrampo(2016)]{Thrampo1}
+K. Thramboulidis and F. Christoulakis. \emph{"UML4IoT - A UML-based approach to exploit IoT in cyber-physical manufacturing systems"}, Computers in Industry, vol. 82, pp. 259-272, 2016. 
+
+\bibitem[Thrampo(2015)]{Thrampo2}
+K. Thramboulidis. \emph{"A Cyber-Physical System-based Approach for Industrial Automation Systems"}, Computers in Industry, vol. 72, pp. 92-102, 2015. 
+
+\bibitem[Thrampo(2017)]{Thrampo3}
+K. Thramboulidis, P. Bochalis and J. Bouloumpasis. \emph{"A framework for MDE of IoT-based manufacturing cyber-physical systems"}, Proceedings of the Seventh International Conference on the Internet of Things - IoT '17, 2017.
+
+\bibitem[pi4j(2018)]{pi4j}
+Pi4J, \emph{"pi4j"}. Available at: http://pi4j.com/.
+
+\bibitem[Foivos(2017)]{Foivos}
+F. Christoulakis. \emph{"IoT in Industrial Automation Systems"}, Diploma Thesis, 2017.
+
+\end{thebibliography}

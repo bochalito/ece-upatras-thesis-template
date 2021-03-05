@@ -1,19 +1,15 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Masters/Doctoral Thesis - University of Patras
-%
-%
 %----------------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 \documentclass[11pt]{Thesis}
  	
-%
+
 \usepackage{pgfplots}
 \usepackage{subfig}
-%\usepackage{euler} % math & rm
 
 \usepackage[bottom]{footmisc}
-\usepackage{fnpct} %footnote picture
+\usepackage{fnpct} 
 
 \graphicspath{{Figures/}} 
 \usepackage{bm}			
@@ -38,8 +34,7 @@
 	\def\tablename{Πίνακας}%
 	
 	
-	\def\@makechapterhead#1{%
-  		%%%%\vspace*{50\p@}% %%% removed!
+	\def\@makechapterhead#1{
   		{\parindent \z@ \raggedright \normalfont
     		\ifnum \c@secnumdepth >\m@ne
         	\huge \@chapapp\space \thechapter
@@ -189,14 +184,8 @@
 \fancyhead[RO,LE]{\small\thepage}
 \fancyhead[RE]{  \leftmark }
 \fancyhead[LO]{  \rightmark}
-\input{Chapters/Chapter1}
-\input{Chapters/Chapter2}
-\input{Chapters/Chapter3}
-\input{Chapters/Chapter4}
-\input{Chapters/Chapter5}
-\input{Chapters/Chapter6}
-\input{Chapters/Chapter7}
-\input{Chapters/Chapter8}
+\input{Chapters/ChapterTemplate}
+
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY
 %----------------------------------------------------------------------------------------
@@ -213,10 +202,7 @@
 
 \appendix % Cue to tell LaTeX that the following 'chapters' are Appendices
 
-
-\input{Appendices/AppendixA}
-%\input{Appendices/AppendixB}
-%\input{Appendices/AppendixC}
+\input{Appendices/AppendixTemplate}
 
 \addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
 
